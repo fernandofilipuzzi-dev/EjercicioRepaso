@@ -1,6 +1,6 @@
 ﻿namespace Ejercicio1
 {
-    partial class Form1
+    partial class FormPrincipal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -46,7 +46,7 @@
             // 
             // btnRegistrarAlumno
             // 
-            this.btnRegistrarAlumno.Location = new System.Drawing.Point(359, 37);
+            this.btnRegistrarAlumno.Location = new System.Drawing.Point(345, 19);
             this.btnRegistrarAlumno.Name = "btnRegistrarAlumno";
             this.btnRegistrarAlumno.Size = new System.Drawing.Size(92, 71);
             this.btnRegistrarAlumno.TabIndex = 0;
@@ -58,7 +58,7 @@
             // 
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(39, 144);
+            this.groupBox1.Location = new System.Drawing.Point(12, 114);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(299, 61);
             this.groupBox1.TabIndex = 1;
@@ -120,7 +120,7 @@
             // 
             this.groupBox2.Controls.Add(this.tbBuscar);
             this.groupBox2.Controls.Add(this.btnBuscar);
-            this.groupBox2.Location = new System.Drawing.Point(39, 37);
+            this.groupBox2.Location = new System.Drawing.Point(12, 7);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(299, 101);
             this.groupBox2.TabIndex = 3;
@@ -149,24 +149,24 @@
             this.groupBox3.Controls.Add(this.rbSuperaronPromedio);
             this.groupBox3.Controls.Add(this.rbTodos);
             this.groupBox3.Controls.Add(this.button2);
-            this.groupBox3.Location = new System.Drawing.Point(39, 211);
+            this.groupBox3.Location = new System.Drawing.Point(12, 181);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(299, 94);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Ver Listado";
             // 
-            // Form1
+            // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(466, 321);
+            this.ClientSize = new System.Drawing.Size(457, 288);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnRegistrarAlumno);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Form1";
+            this.Name = "FormPrincipal";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

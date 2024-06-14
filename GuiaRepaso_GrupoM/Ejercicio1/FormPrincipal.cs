@@ -12,11 +12,11 @@ using System.Windows.Forms;
 
 namespace Ejercicio1
 {
-    public partial class Form1 : Form
+    public partial class FormPrincipal : Form
     {
         Controlador ejemplo = new Controlador();
 
-        public Form1()
+        public FormPrincipal()
         {
             InitializeComponent();
             ejemplo.AgregarAlumno("c",3,90);
