@@ -34,7 +34,7 @@
             // 
             // tbNumero
             // 
-            this.tbNumero.Location = new System.Drawing.Point(77, 46);
+            this.tbNumero.Location = new System.Drawing.Point(51, 23);
             this.tbNumero.Name = "tbNumero";
             this.tbNumero.Size = new System.Drawing.Size(183, 20);
             this.tbNumero.TabIndex = 0;
@@ -42,7 +42,7 @@
             // btnOK
             // 
             this.btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnOK.Location = new System.Drawing.Point(126, 98);
+            this.btnOK.Location = new System.Drawing.Point(110, 62);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 1;
@@ -53,7 +53,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(335, 211);
+            this.ClientSize = new System.Drawing.Size(287, 107);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.tbNumero);
             this.Name = "FormAgregarValor";

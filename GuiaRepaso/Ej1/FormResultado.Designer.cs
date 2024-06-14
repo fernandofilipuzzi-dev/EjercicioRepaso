@@ -35,14 +35,14 @@
             // lBListar
             // 
             this.lBListar.FormattingEnabled = true;
-            this.lBListar.Location = new System.Drawing.Point(55, 36);
+            this.lBListar.Location = new System.Drawing.Point(12, 12);
             this.lBListar.Name = "lBListar";
             this.lBListar.Size = new System.Drawing.Size(147, 264);
             this.lBListar.TabIndex = 0;
             // 
             // btnListar
             // 
-            this.btnListar.Location = new System.Drawing.Point(303, 56);
+            this.btnListar.Location = new System.Drawing.Point(165, 44);
             this.btnListar.Name = "btnListar";
             this.btnListar.Size = new System.Drawing.Size(75, 23);
             this.btnListar.TabIndex = 1;
@@ -53,7 +53,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(566, 450);
+            this.ClientSize = new System.Drawing.Size(249, 287);
             this.Controls.Add(this.btnListar);
             this.Controls.Add(this.lBListar);
             this.Name = "FormResultado";

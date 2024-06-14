@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Ej1
 {
-    public partial class Form1 : Form
+    public partial class FormPrincipal : Form
     { Controlador objeto= new Controlador();
-        public Form1()
+        public FormPrincipal()
         {
             InitializeComponent();
         }
@@ -52,8 +52,6 @@ namespace Ej1
                 n++;
             }
             ventana2.ShowDialog();
-
-            
         }
     }
 }
